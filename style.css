@@ -20,6 +20,13 @@ h1 {
     width: 100%;
 }
 
+h2 {
+    font-size: 1.1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 100%;
+}
+
 p {
     font-size: 1em;
     text-transform: uppercase;
@@ -66,10 +73,6 @@ p {
     width: 30%;
 }
 
-#gender-title {
-    width: 100%;
-}
-
 .gender-button {
     padding: 0 px 30px;
 }
@@ -80,16 +83,8 @@ p {
     padding: 0;
 }
 
-#description-title {
-    width: 100%;
-}
-
 #description {
     margin: 0;
-}
-
-#select-title {
-    width: 100%;
 }
 
 #language {
