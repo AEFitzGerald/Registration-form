@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;900&display=swap" rel="stylesheet">
+</head>
+<body>
+ <main>
+    <div class= "content-wrapper">
+        <h1 id="registration-title">Registration Form</h1>
+            <div class= "identity-info">
+
+                <div class="identity-category">
+                    <label class="label-title" for="first_name">First Name: *</label>
+                    <input class="identity-input" type="text" name="first-name" id="first-name">
+                </div>
+
+                <div class="identity-category">
+                    <label class="label-title" for="last_name">Last Name: *</label>
+                    <input class="identity-input" type="text" name="last-name" id="last-name">
+                </div>
+
+                <div class="identity-category">
+                    <label class="label-title" for="password">Email Address: *</label>
+                    <input class="identity-input" type="password" name="email-address" id="email-address">
+                </div>
+
+                <div class="identity-category">
+                    <label class="label-title" for="password">Password: *</label>
+                    <input class="identity-input" type="password" name="password" id="password">
+                </div>
+
+                <div class="identity-category">
+                    <label class="label-title" for="dob">Birthday: *</label>
+                    <input class="identity-input" type="date" name="dob" id="dob">
+                </div>
+            </div>
+    </div><!-- close content-wrapper identity-->
+
+<div class= "content-wrapper">
+    <p id="gender-title">Gender Identity:</p>
+
+        <div class= "gender-choice">
+            <input class="gender-button" type="radio" name="gender_identity" id="male">
+            <label class="button-title" for="male">Male</label>
+
+            <input class="gender-button" type="radio" name="gender_identity" id="female">
+            <label class="button-title" for="female">Female</label>
+
+            <input class="gender-button" type="radio" name="gender_identity" id="non-binary">
+            <label class="button-title" for="nonbinary">Non-binary</label>
+            <br>
+            <input class="gender-button" type="radio" name="no_comment" id="no_comment">
+            <label class="button-title" for="no_comment">Prefer Not to Comment</label>
+        </div>
+</div><!--close content-wrapper gender-->
+
+<div class="content-wrapper">
+    <p id="description-title">A short description about myself:</p>
+        <textarea name="description" id="description" cols="50" rows="5"></textarea>
+</div><!--close content-wrapper description-->
+
+<div class="content-wrapper">
+    <p id="select-title">Favorite Programming Language:</p>
+        <select name="language" id="language">Programming Language
+            <option value="javascript">JavaScript</option>
+            <option value="ruby">Ruby</option>
+            <option value="python">Python</option>
+            <option value="rust">Rust</option>
+            <option value="java">Java</option>
+            <option value="scala">Scala</option>
+        </select>
+</div>
+
+<div class="content-wrapper">
+    <div class="subscription">
+        <input type="checkbox" name="check-yes" id="check-yes">
+        <label for="check-yes">Yes, I would like to receive periodic email updates.</label>
+    </div>
+</div>
+
+<div class="content-wrapper">
+    <button>Create Account</button>
+    <p id="important-directions">*Indicates a required field.</p>
+</div>
+
+</main>   
+</body>
+</html>

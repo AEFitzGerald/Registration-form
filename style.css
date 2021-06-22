@@ -1,0 +1,114 @@
+/*== Global Styles ==*/
+
+html {
+    font-size: 14px;
+}
+
+body {
+    background-color:bisque; 
+    margin: 0;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+p {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+/*== Form ==*/
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-flow: row wrap;
+    max-width:480px;
+    margin: 20px 10px 0 10px;
+    padding: 0;
+}
+
+.identity-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.identity-category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+.identity-input {
+    display:flex;
+    margin: 20px;
+    padding: 10px;
+    height: 20px;
+    width: 65%;
+}
+
+.label-title {
+    display: flex;
+    align-items: left;
+    text-transform: uppercase;
+    width: 30%;
+}
+
+#gender-title {
+    width: 100%;
+}
+
+.gender-button {
+    padding: 0 px 30px;
+}
+
+.gender-choice {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#description-title {
+    width: 100%;
+}
+
+#description {
+    margin: 0;
+}
+
+#select-title {
+    width: 100%;
+}
+
+#language {
+    height: 50px;
+    width: 80%;
+}
+
+.subscription {
+    margin: 0;
+    padding-top: 40px;
+}
+
+button {
+    width: 80%;
+    background-color: peru;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+
+
